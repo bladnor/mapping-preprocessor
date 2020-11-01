@@ -13,6 +13,8 @@ val tagNames = listOf(
     UnspecifiedTag("GPSLongitude")
 )
 
+
+
 fun main(args: Array<String>) {
 //    val image = Paths.get("/home/rb/projects/mapping-preprocessor/src/test/resources/ms/IMG_0201_1.tif").toFile()
 //    val image =
