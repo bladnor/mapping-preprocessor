@@ -12,6 +12,11 @@ repositories {
     maven(url = "https://kotlin.bintray.com/kotlinx")
 }
 
+dependencies {
+//    implementation("com.drewnoakes:metadata-extractor:2.14.0")
+    implementation("com.github.mjeanroy:exiftool-lib:2.6.0")
+}
+
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "11"
 }
